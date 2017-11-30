@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/xtx1130/node-single-test/issues"
   },
-  "homepage": "https://github.com/xtx1130/node-single-test#readme"
+  "homepage": "https://github.com/xtx1130/node-single-test#readme",
+  "dependencies": {
+    "commander": "^2.12.2"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
 }
