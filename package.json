@@ -1,0 +1,24 @@
+{
+  "name": "node-single-test",
+  "version": "1.0.0",
+  "description": "run single node orgin test case",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtx1130/node-single-test.git"
+  },
+  "keywords": [
+    "node",
+    "test",
+    "single"
+  ],
+  "author": "xtx1130@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xtx1130/node-single-test/issues"
+  },
+  "homepage": "https://github.com/xtx1130/node-single-test#readme"
+}
