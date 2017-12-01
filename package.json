@@ -1,6 +1,6 @@
 {
   "name": "node-single-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "run single node orgin test case",
   "main": "index.js",
   "scripts": {
