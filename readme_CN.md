@@ -1,5 +1,5 @@
 ## node-single-test
-> 这个包用来跑单个node官方测试用例 [https://github.com/nodejs/node/tree/master/test](https://github.com/nodejs/node/tree/master/test) 。
+> 这个包用来跑某个指定的node官方测试用例 [https://github.com/nodejs/node/tree/master/test](https://github.com/nodejs/node/tree/master/test) 。
 
 ### 使用方法
 
@@ -11,4 +11,5 @@ $ cd node_repo/test/[folder]/[single test case]
 $ node-single run test.js
 ```
 
-去本地node目录下进入到要测试的单测用例文件夹中，然后运行此包。此包会根据你本地node测试用例的编译环境 `Debug`或者`release`来自动寻找node/out/目录下相应的执行文件来作为node测试用例的运行环境。
+去本地node目录下进入到单测用例文件夹中，然后运行+单测文件。  
+它会根据你本地node测试用例的编译环境 `Debug`或者`release`来自动寻找node/out/目录下相应的执行文件来作为node测试用例的运行环境。
