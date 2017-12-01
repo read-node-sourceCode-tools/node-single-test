@@ -12,3 +12,5 @@ $ node-single run test.js
 ```
 
 The plugin will find your local test case is `Debug` or `Release` version, and use different node cli.
+
+中文文档：![地址](https://github.com/xtx1130/node-single-test/blob/master/readme_CN.md)
