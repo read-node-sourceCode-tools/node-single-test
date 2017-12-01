@@ -11,4 +11,4 @@ $ cd node_repo/test/[folder]/[single test case]
 $ node-single run test.js
 ```
 
-The plugin will find your local test case is Debug or Release version, and use different node cli.
+The plugin will find your local test case is `Debug` or `Release` version, and use different node cli.
