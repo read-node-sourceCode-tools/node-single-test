@@ -8,6 +8,9 @@
     "cov": "./node_modules/.bin/cross-env NODE_ENV=travis npm run test -- --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "lint": "npx standard --fix"
   },
+  "bin": {
+    "node-single": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xtx1130/node-single-test.git"
@@ -24,6 +27,7 @@
   },
   "homepage": "https://github.com/xtx1130/node-single-test#readme",
   "dependencies": {
+    "chalk": "^2.3.0",
     "commander": "^2.12.2",
     "cross-env": "^5.1.1",
     "standard": "^10.0.3"
